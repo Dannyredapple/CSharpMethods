@@ -8,8 +8,8 @@ public class Script
     public static string TransformContent(ContentTransformationArguments args)
     {
         string firstName = args.DataRow["FirstName"].Trim();
-        string lastName = "MARCHANT, JENNIFER NICOLE SERVICE"; //args.DataRow["LastName"].Trim();
-        string suffix = args.DataRow["Suffix"].Trim();
+        string lastName = args.DataRow["LastName"].Trim();//"MARCHANT, JENNIFER NICOLE SERVICE";
+        //string suffix = args.DataRow["Suffix"].Trim();
         string caseNumber = args.DataRow["CaseNumberRaw"].Trim();
         string sourceInfoID = args.GlobalData.GetString("SourceInfoID");
         string id = string.Empty;
