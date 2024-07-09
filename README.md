@@ -48,7 +48,7 @@ Este proyecto contiene una colección de métodos en C# diseñados para su uso c
       }
   }
 ```
-###Limpieza de Datos
+### Limpieza de Datos
 
 ```csharp
 using System;
