@@ -52,16 +52,19 @@ Este proyecto contiene una colección de métodos en C# diseñados para su uso c
 
 ```csharp
 using System;
-using System.Text.RegularExpressions;
-
+using Sequentum.ContentGrabber.Api;
 public class Script
 {
-    public static string CleanData(string input)
-    {
-        // Ejemplo de limpieza de datos
-        string cleanedData = Regex.Replace(input, @"[^0-9a-zA-Z]", string.Empty);
-        return cleanedData;
-    }
+	//See help for a definition of CustomScriptArguments.
+	public static CustomScriptReturn CustomScript(CustomScriptArguments args)
+	{
+		//Place your script code here.
+		//Return empty for no special action. LN aux
+		
+		args.WriteDebug("Loading inmate: "+args.DataRow["FullName"]);
+		
+		return CustomScriptReturn.Empty();
+	}
 }
 ```
 ## 📚 Documentación
