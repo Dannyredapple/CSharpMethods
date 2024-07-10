@@ -3,7 +3,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/Dannyredapple/CSharpMethods)](https://github.com/Dannyredapple/CSharpMethods/issues)
 [![GitHub forks](https://img.shields.io/github/forks/Dannyredapple/CSharpMethods)](https://github.com/Dannyredapple/CSharpMethods/network)
 [![GitHub stars](https://img.shields.io/github/stars/Dannyredapple/CSharpMethods)](https://github.com/Dannyredapple/CSharpMethods/stargazers)
-[![GitHub license](https://img.shields.io/github/license/Dannyredapple/CSharpMethods/)](https://github.com/Dannyredapple/CSharpMethods/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Dannyredapple/CSharpMethods)](https://github.com/Dannyredapple/CSharpMethods/blob/main/LICENSE)
 
 ## 🌟 Descripción
 
